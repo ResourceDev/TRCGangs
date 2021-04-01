@@ -1,0 +1,14 @@
+name: TRCGangs
+version: ${project.version}
+main: co.marchet.trcgangs.Main
+api-version: 1.16
+prefix: TRCGangs
+depend: [ Vault ]
+softdepend: [ PlaceholderAPI, MVDWPlaceholderAPI ]
+authors: [ ResourcesMCM, Marchet ]
+description: This is a gangs/teams plugin made for Marchet.
+website: www.marchet.co.uk
+commands:
+  gangs:
+    description: The main command for the TRCGangs plugin.
+    aliases: [g, gang, trcgang, trcgangs]

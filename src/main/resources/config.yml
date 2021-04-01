@@ -1,0 +1,25 @@
+settings:
+  create-gang:
+    permission: 'trcgangs.create'
+  invite-gang:
+    permission: 'trcgangs.invite'
+  deinvite-gang:
+    permission: 'trcgangs.deinvite'
+  disband-gang:
+    permission: 'trcgangs.disband'
+    admin-permission: 'trcgangs.admin.disband'
+  value:
+    permission: 'trcgangs.value'
+  promote:
+    permission: 'trcgangs.promote'
+    minimum-rank: 'OFFICIAL'
+  demote:
+    permission: 'trcgangs.demote'
+    minimum-rank: 'OFFICIAL'
+  shop:
+    permission: 'trcgangs.upgrade'
+  storage:
+    permission: 'trcgangs.storage'
+    minimum-rank: 'MEMBER'
+  set:
+    permission: 'trcgangs.admin.set'
